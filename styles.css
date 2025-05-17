@@ -1,0 +1,87 @@
+      /* General Styles */
+      body {
+        font-family: 'Verdana', sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.8;
+        color: #444;
+        background-color: #f9f9f9;
+      }
+      header {
+        background: linear-gradient(90deg, #6a5acd, #4b0082);
+        color: white;
+        padding: 25px 0;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2.8rem;
+        letter-spacing: 2px;
+      }
+      nav {
+        background: #444;
+        color: white;
+        display: flex;
+        justify-content: center;
+        padding: 15px 0;
+      }
+      nav ul {
+        color: white;
+        text-decoration: none;
+        margin: 0 20px;
+        font-weight: bold;
+        font-size: 1.1rem;
+      }
+      nav ul li {
+        margin-right: 20px;
+      }
+      nav ul li a.active,
+      nav ul li a {
+        color: #e6e6fa;
+        text-decoration: none;
+        font-weight: bolder;
+      }
+      nav a:hover {
+        color: #ff6347;
+      }
+      section {
+        padding: 25px;
+        max-width: 1000px;
+        margin: 20px auto;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      section h2 {
+        color: #4b0082;
+        border-bottom: 3px solid #4b0082;
+        padding-bottom: 8px;
+        margin-bottom: 20px;
+        font-size: 1.8rem;
+      }
+      .skills ul {
+        list-style: none;
+        padding: 0;
+      }
+      .skills ul li {
+        background: #e6e6fa;
+        margin: 8px 0;
+        padding: 12px;
+        border-left: 6px solid #4b0082;
+        font-size: 1.1rem;
+      }
+      footer {
+        background: #4b0082;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        margin-top: 30px;
+      }
+      footer a {
+        color: #ff4500;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      footer a:hover {
+        text-decoration: underline;
+      }
